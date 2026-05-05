@@ -26,7 +26,7 @@ st.markdown("""
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     }
     .card {
-        background: white;
+        background: black;
         padding: 20px;
         border-radius: 12px;
         box-shadow: 0 2px 4px rgba(0,0,0,0.05);

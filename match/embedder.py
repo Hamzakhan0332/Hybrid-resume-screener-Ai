@@ -1,12 +1,22 @@
 from sentence_transformers import SentenceTransformer, util
 import torch
+import os
 from typing import List, Union
+
 
 class Embedder:
     def __init__(self, model_name: str = 'all-MiniLM-L6-v2'):
         # Check if GPU is available
         self.device = 'cuda' if torch.cuda.is_available() else 'cpu'
+        
+        # Try local model path first to avoid hub download errors
+        local_path = os.path.join(os.path.dirname(__file__), '..', 'all-MiniLM-L6-v2.pt')
+        if os.path.exists(local_path):
+            model_name = local_path
+            
         self.model = SentenceTransformer(model_name, device=self.device)
+
+
 
     def encode(self, texts: Union[str, List[str]]):
         """Encodes text(s) into embeddings."""

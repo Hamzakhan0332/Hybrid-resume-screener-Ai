@@ -85,7 +85,6 @@ python app.py --resume path/to/cv.pdf --jd path/to/jd.txt
 ## 📂 Project Structure
 
 ```text
-resume_screener/
 ├── ingest/          # Document parsing (PDF, DOCX, TXT)
 ├── extract/         # NLP, NER, and Skill Extraction logic
 ├── match/           # Semantic matching & LLM enhancement
