@@ -1,0 +1,5 @@
+Backend Developer
+We are looking for a Python Developer with 3+ years of experience.
+Required Skills: Python, FastAPI, PostgreSQL, Docker, AWS.
+Experience with Machine Learning and React is a plus.
+Must be a great team player with strong communication skills.

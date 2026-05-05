@@ -1,0 +1,14 @@
+pdfplumber
+PyMuPDF
+python-docx
+spacy
+sentence-transformers
+scikit-learn
+pydantic
+python-dotenv
+streamlit
+groq
+holisticai
+pandas
+numpy
+python-json-logger

@@ -1,0 +1,13 @@
+John Doe
+Email: john.doe@example.com
+Phone: 123-456-7890
+
+Summary:
+Highly motivated Python Developer with 4 years of experience building scalable backend services.
+
+Skills:
+Python, FastAPI, SQL, Docker, Git, JavaScript, React.
+
+Experience:
+- Backend Engineer at TechCorp: Developed microservices using FastAPI and PostgreSQL. Implemented CI/CD pipelines.
+- Software Developer at DevStudio: Built frontend applications with React and integrated with Python APIs.
